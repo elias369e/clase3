@@ -1,0 +1,7 @@
+entity.test_module_test_entity.settings:
+  path: 'admin/structure/test-module-test-entity'
+  defaults:
+    _form: '\Drupal\test_module\Form\TestEntitySettingsForm'
+    _title: 'test_entity'
+  requirements:
+    _permission: 'administer test_module_test_entity'

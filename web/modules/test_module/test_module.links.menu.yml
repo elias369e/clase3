@@ -1,0 +1,11 @@
+entity.test_module_test_entity.settings:
+  title: 'test_entity'
+  description: 'Configure a test_entity entity type.'
+  route_name:  entity.test_module_test_entity.settings
+  parent: system.admin_structure
+
+entity.test_module_test_entity.collection:
+  title: 'test_entities'
+  description: 'List of test_entities.'
+  route_name: entity.test_module_test_entity.collection
+  parent: system.admin_content
